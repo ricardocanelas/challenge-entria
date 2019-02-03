@@ -2,7 +2,16 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src --max-warnings 0 --format codeframe",
+    "lint:fix": "eslint src --fix"
+  },
   "dependencies": {
+    "prop-types": "^15.6.2",
     "react": "16.7",
     "react-dom": "16.7",
     "react-redux": "^6.0.0",
@@ -10,11 +19,9 @@
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-plugin-react": "^7.12.4"
   },
   "eslintConfig": {
     "extends": "react-app"
