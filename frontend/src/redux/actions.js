@@ -1,4 +1,4 @@
-import API from '../helpers/API'
+import API from '../utils/api'
 
 // Action Types
 
@@ -48,6 +48,7 @@ export const product = {
     return (dispatch) => {
       dispatch({ type: PRODUCTS_REMOVE_REQUEST });
       return API.products.remove(values).then(data => {
+        dispatch(app.goto('ProductHome'));
         dispatch({ type: PRODUCTS_REMOVE_SUCCESS, payload: data });
       }).catch(error => {
         dispatch({ type: PRODUCTS_REMOVE_FAILURE, payload: error });

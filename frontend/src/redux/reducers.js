@@ -73,10 +73,6 @@ const reducer = (state = initialState, action) => {
       case types.PRODUCTS_REMOVE_SUCCESS:
       return {
         ...state,
-        view: {
-          id: 'ProductHome',
-          params: {},
-        },
         products: {
           ...state.products,
           data: [
