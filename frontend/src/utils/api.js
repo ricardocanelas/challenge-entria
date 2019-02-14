@@ -34,7 +34,7 @@ export default {
   },
 }
 
-const products = [
+export const products = [
   {
     id: 'A0010',
     title: 'Dining Chair',

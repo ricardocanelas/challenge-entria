@@ -252,7 +252,7 @@ Text.propTypes = {
 }
 
 // ----
-// Text
+// Icon
 
 const iconList = {
   heart: IconHeart,

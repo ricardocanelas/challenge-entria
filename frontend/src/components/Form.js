@@ -8,6 +8,7 @@ import { responsive } from '@ricardocanelas/styled-responsive'
 export const FormGroup = styled.div`
   display: block;
   margin-bottom: 16px;
+  box-sizing: border-box;
   ${responsive('width')}
   ${responsive('padding', 'p')}
 
@@ -30,6 +31,7 @@ export const FormGroup = styled.div`
     padding: 6px;
     border: 1px solid #F5F5F5;
     border-radius: 3px;
+    box-sizing: border-box;
     width: 100%;
   }
   label.error:after{
