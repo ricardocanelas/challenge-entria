@@ -21,6 +21,8 @@ Challenge by: [https://github.com/entria/jobs](https://github.com/entria/jobs)
 
 ![screengrab](frontend/screengrab.png)
 
+🚩 Live: [https://ricardocanelas.github.io/challenge-entria](https://ricardocanelas.github.io/challenge-entria)
+
 ## Getting Started
 
 ### 👉🏻 Prerequisites
