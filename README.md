@@ -4,23 +4,24 @@ Challenge by: [https://github.com/entria/jobs](https://github.com/entria/jobs)
 
 ## Description:
 
-- ⬛ Create a List and Detail view for some model (e.g: todos, posts, products)
-- ⬛ it should use React
-- ⬛ it should use inline style
-- ⬛ it should be open sourced on your github repo
+- [x] Create a List and Detail view for some model (e.g: todos, posts, products)
+- [x] it should use React
+- [x] it should use inline style
+- [x] it should be open sourced on your github repo
 
 ### **Extras**
 
-- ⬜ Also Implement in React Native
-- ⬜ it should use ReactNavigation
-- ⬜ Implement code splitting using react-loadable
-- ⬜ Optimize webpack
-- ⬛ Create a [storybook] with your components
-- ⬜ Test your components with [jest]
+- [ ] Also Implement in React Native
+- [ ] it should use ReactNavigation
+- [ ] Implement code splitting using react-loadable
+- [ ] Optimize webpack
+- [x] Create a [storybook] with your components
+- [ ] Test your components with [jest]
 
----
 
-## Getting Start
+![screengrab](frontend/screengrab.png)
+
+## Getting Started
 
 ### 👉🏻 Prerequisites
 
