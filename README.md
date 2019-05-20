@@ -2,6 +2,8 @@
 
 Challenge by: [https://github.com/entria/jobs](https://github.com/entria/jobs)
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 ## Description:
 
 - [x] Create a List and Detail view for some model (e.g: todos, posts, products)
@@ -21,7 +23,7 @@ Challenge by: [https://github.com/entria/jobs](https://github.com/entria/jobs)
 
 ![screengrab](frontend/screengrab.png)
 
-🚩 Live: [https://ricardocanelas.github.io/challenge-entria](https://ricardocanelas.github.io/challenge-entria)
+👁️‍🗨️ Live: [https://ricardocanelas.github.io/challenge-entria](https://ricardocanelas.github.io/challenge-entria)
 
 ## Getting Started
 
