@@ -242,8 +242,6 @@ storiesOf('Page|Header', module)
 //     PRODUCT
 // ------------------
 
-console.log('Products', products);
-
 storiesOf('Product|Item', module)
   .addDecorator(withKnobs)
   .addDecorator(withThemeProvider)
